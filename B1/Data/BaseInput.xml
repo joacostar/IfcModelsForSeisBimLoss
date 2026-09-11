@@ -1,0 +1,583 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project FileVersion="2.3">
+  <ProjectID>2</ProjectID>
+  <ProjectDescription>Two-Storey Healthcare facility.</ProjectDescription>
+  <Client>Joaquin</Client>
+  <Engineer>Joaquin</Engineer>
+  <Intensity>true</Intensity>
+  <DateMultiplier>1.65</DateMultiplier>
+  <RegionMultiplier>1</RegionMultiplier>
+  <EngineSeedValue>5</EngineSeedValue>
+  <Building>
+    <NumStories>2</NumStories>
+    <TypicalFloorArea>
+      <Area>
+        <Unit>Square Foot</Unit>
+        <Value>28362.90394803006</Value>
+      </Area>
+    </TypicalFloorArea>
+    <TypicalFloorHeight>
+      <Length>
+        <Unit>Foot</Unit>
+        <Value>16.4041994750656</Value>
+      </Length>
+    </TypicalFloorHeight>
+    <ReplacementCost>36943600</ReplacementCost>
+    <CoreReplacementCost>31618300</CoreReplacementCost>
+    <PercentLossThreshold>1</PercentLossThreshold>
+    <ReplacementTime>365</ReplacementTime>
+    <ReplacementEnergy>242350000</ReplacementEnergy>
+    <ReplacementCarbon>14777400</ReplacementCarbon>
+    <MaxWorkersPerSF>0.46284814791851708</MaxWorkersPerSF>
+    <UseResidualDrift>true</UseResidualDrift>
+    <ResidualDriftMedian>0.0125</ResidualDriftMedian>
+    <ResidualDriftDisp>0.3</ResidualDriftDisp>
+    <FragilityDefaults>
+      <TypicalDefaults />
+    </FragilityDefaults>
+    <CollapseModes>
+      <UseCollapse>true</UseCollapse>
+      <NumFloors>2</NumFloors>
+      <Beta>0.6</Beta>
+      <Median>3.15</Median>
+      <CollapseMode>
+        <NumFloors>2</NumFloors>
+        <Probability>0.33</Probability>
+        <FloorPercentages>1,1,0</FloorPercentages>
+        <FloorDeathRates>0.9,0.9,0</FloorDeathRates>
+        <FloorInjuryRates>0.1,0.1,0</FloorInjuryRates>
+        <FloorDeathRateBetas>0.5,0.5,0</FloorDeathRateBetas>
+        <FloorInjuryRateBetas>0.5,0.5,0</FloorInjuryRateBetas>
+      </CollapseMode>
+      <CollapseMode>
+        <NumFloors>2</NumFloors>
+        <Probability>0.34</Probability>
+        <FloorPercentages>1,0,0</FloorPercentages>
+        <FloorDeathRates>0.9,0.1,0</FloorDeathRates>
+        <FloorInjuryRates>0.1,0.9,0</FloorInjuryRates>
+        <FloorDeathRateBetas>0.5,0.5,0</FloorDeathRateBetas>
+        <FloorInjuryRateBetas>0.5,0.5,0</FloorInjuryRateBetas>
+      </CollapseMode>
+      <CollapseMode>
+        <NumFloors>2</NumFloors>
+        <Probability>0.33</Probability>
+        <FloorPercentages>0,1,0</FloorPercentages>
+        <FloorDeathRates>0.1,0.9,0</FloorDeathRates>
+        <FloorInjuryRates>0.9,0.1,0</FloorInjuryRates>
+        <FloorDeathRateBetas>0.5,0.5,0</FloorDeathRateBetas>
+        <FloorInjuryRateBetas>0.5,0.5,0</FloorInjuryRateBetas>
+      </CollapseMode>
+    </CollapseModes>
+    <TypicalOccupancyTemplates>
+      <OccupancyTemplatePercentage>
+        <ID>d66d966a-e032-4353-aace-c957bab058f0</ID>
+        <PopulationModel>
+          <Name>Healthcare</Name>
+          <PeakOccupantsPer1000SF>5</PeakOccupantsPer1000SF>
+          <PopulationUncertainty>0.2</PopulationUncertainty>
+          <FollowingMaster>false</FollowingMaster>
+          <WeekendOccupantsByMonth>1,1,1,1,1,1,1,1,1,1,1,1</WeekendOccupantsByMonth>
+          <WeekendOccupantsByHour>0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.5,0.65,0.8,0.8,0.8,0.8,0.8,0.8,0.8,0.8,0.8,0.65,0.5,0.4,0.4</WeekendOccupantsByHour>
+          <WeekdayOccupantsByMonth>1,1,1,1,1,1,1,1,1,1,1,1</WeekdayOccupantsByMonth>
+          <WeekdayOccupantsByHour>0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.6,0.8,1,1,1,1,1,1,1,1,1,0.8,0.6,0.4,0.4</WeekdayOccupantsByHour>
+        </PopulationModel>
+        <FollowingMaster>false</FollowingMaster>
+        <Percent>1</Percent>
+      </OccupancyTemplatePercentage>
+    </TypicalOccupancyTemplates>
+    <Floor>
+      <FloorNum>0</FloorNum>
+      <FloorName>1st</FloorName>
+      <Height>
+        <Length>
+          <Unit>Foot</Unit>
+          <Value>16.4041994750656</Value>
+        </Length>
+      </Height>
+      <Area>
+        <Area>
+          <Unit>Square Foot</Unit>
+          <Value>28362.90394803006</Value>
+        </Area>
+      </Area>
+      <LengthDir1>
+        <Length>
+          <Unit>Foot</Unit>
+          <Value>0</Value>
+        </Length>
+      </LengthDir1>
+      <LengthDir2>
+        <Length>
+          <Unit>Foot</Unit>
+          <Value>0</Value>
+        </Length>
+      </LengthDir2>
+      <IsRoof>false</IsRoof>
+      <FragilityDefaults>
+        <TypicalDefaults />
+      </FragilityDefaults>
+      <HeightFactor>1</HeightFactor>
+      <HazmatFactor>1</HazmatFactor>
+      <OccupancyFactor>1</OccupancyFactor>
+      <OccupancyTemplates>
+        <OccupancyTemplatePercentage>
+          <ID>d66d966a-e032-4353-aace-c957bab058f0</ID>
+          <PopulationModel>
+            <Name>Healthcare</Name>
+            <PeakOccupantsPer1000SF>5</PeakOccupantsPer1000SF>
+            <PopulationUncertainty>0.2</PopulationUncertainty>
+            <FollowingMaster>true</FollowingMaster>
+            <WeekendOccupantsByMonth>1,1,1,1,1,1,1,1,1,1,1,1</WeekendOccupantsByMonth>
+            <WeekendOccupantsByHour>0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.5,0.65,0.8,0.8,0.8,0.8,0.8,0.8,0.8,0.8,0.8,0.65,0.5,0.4,0.4</WeekendOccupantsByHour>
+            <WeekdayOccupantsByMonth>1,1,1,1,1,1,1,1,1,1,1,1</WeekdayOccupantsByMonth>
+            <WeekdayOccupantsByHour>0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.6,0.8,1,1,1,1,1,1,1,1,1,0.8,0.6,0.4,0.4</WeekdayOccupantsByHour>
+          </PopulationModel>
+          <FollowingMaster>true</FollowingMaster>
+          <Percent>1</Percent>
+        </OccupancyTemplatePercentage>
+      </OccupancyTemplates>
+      <Direction />
+      <Direction />
+      <Direction />
+    </Floor>
+    <Floor>
+      <FloorNum>1</FloorNum>
+      <FloorName>2nd</FloorName>
+      <Height>
+        <Length>
+          <Unit>Foot</Unit>
+          <Value>15.3543307086614</Value>
+        </Length>
+      </Height>
+      <Area>
+        <Area>
+          <Unit>Square Foot</Unit>
+          <Value>28362.90394803006</Value>
+        </Area>
+      </Area>
+      <LengthDir1>
+        <Length>
+          <Unit>Foot</Unit>
+          <Value>0</Value>
+        </Length>
+      </LengthDir1>
+      <LengthDir2>
+        <Length>
+          <Unit>Foot</Unit>
+          <Value>0</Value>
+        </Length>
+      </LengthDir2>
+      <IsRoof>false</IsRoof>
+      <FragilityDefaults>
+        <TypicalDefaults />
+      </FragilityDefaults>
+      <HeightFactor>1</HeightFactor>
+      <HazmatFactor>1</HazmatFactor>
+      <OccupancyFactor>1</OccupancyFactor>
+      <OccupancyTemplates>
+        <OccupancyTemplatePercentage>
+          <ID>d66d966a-e032-4353-aace-c957bab058f0</ID>
+          <PopulationModel>
+            <Name>Healthcare</Name>
+            <PeakOccupantsPer1000SF>5</PeakOccupantsPer1000SF>
+            <PopulationUncertainty>0.2</PopulationUncertainty>
+            <FollowingMaster>true</FollowingMaster>
+            <WeekendOccupantsByMonth>1,1,1,1,1,1,1,1,1,1,1,1</WeekendOccupantsByMonth>
+            <WeekendOccupantsByHour>0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.5,0.65,0.8,0.8,0.8,0.8,0.8,0.8,0.8,0.8,0.8,0.65,0.5,0.4,0.4</WeekendOccupantsByHour>
+            <WeekdayOccupantsByMonth>1,1,1,1,1,1,1,1,1,1,1,1</WeekdayOccupantsByMonth>
+            <WeekdayOccupantsByHour>0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.6,0.8,1,1,1,1,1,1,1,1,1,0.8,0.6,0.4,0.4</WeekdayOccupantsByHour>
+          </PopulationModel>
+          <FollowingMaster>true</FollowingMaster>
+          <Percent>1</Percent>
+        </OccupancyTemplatePercentage>
+      </OccupancyTemplates>
+      <Direction />
+      <Direction />
+      <Direction />
+    </Floor>
+    <Floor>
+      <FloorNum>2</FloorNum>
+      <FloorName>Roof</FloorName>
+      <Height>
+        <Length>
+          <Unit>Foot</Unit>
+          <Value>0</Value>
+        </Length>
+      </Height>
+      <Area>
+        <Area>
+          <Unit>Square Foot</Unit>
+          <Value>21219.972995501506</Value>
+        </Area>
+      </Area>
+      <LengthDir1>
+        <Length>
+          <Unit>Foot</Unit>
+          <Value>0</Value>
+        </Length>
+      </LengthDir1>
+      <LengthDir2>
+        <Length>
+          <Unit>Foot</Unit>
+          <Value>0</Value>
+        </Length>
+      </LengthDir2>
+      <IsRoof>true</IsRoof>
+      <FragilityDefaults>
+        <TypicalDefaults />
+      </FragilityDefaults>
+      <HeightFactor>1</HeightFactor>
+      <HazmatFactor>1</HazmatFactor>
+      <OccupancyFactor>1</OccupancyFactor>
+      <OccupancyTemplates />
+      <Direction />
+      <Direction />
+      <Direction />
+    </Floor>
+  </Building>
+  <AnalysisCases RunType="NonLinear">
+    <NonDirConversionFactor>1.2</NonDirConversionFactor>
+    <MinPointMAFE>0.0922</MinPointMAFE>
+    <MaxPointMAFE>5.8E-05</MaxPointMAFE>
+    <MinPointSA>0.05</MinPointSA>
+    <MaxPointSA>2.93</MaxPointSA>
+    <DefaultNumEqs>11</DefaultNumEqs>
+    <NumRealizations>2000</NumRealizations>
+    <Analysis>
+      <AnalysisName>L1 Tr 40 yr</AnalysisName>
+      <SA>0.15</SA>
+      <MAFE>0.0249</MAFE>
+      <SABeta>0</SABeta>
+      <ModelingDispersion>0.14</ModelingDispersion>
+      <NumRealizations>2000</NumRealizations>
+      <NonDirConversionFactor>1.2</NonDirConversionFactor>
+      <ResidualDriftEDPs>
+        <EDPArray>
+          <NumEQs>11</NumEQs>
+          <NumEntries>1</NumEntries>
+          <EDPTypeName>Building Residual Drift</EDPTypeName>
+          <DispersionValue>0.2</DispersionValue>
+          <EDPGroupName>Building Dispersion</EDPGroupName>
+          <ArrayValues>0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+</ArrayValues>
+        </EDPArray>
+      </ResidualDriftEDPs>
+      <EDP>
+        <Direction>0</Direction>
+        <NumEQs>11</NumEQs>
+        <BetaM>0</BetaM>
+        <BetaGM>0</BetaGM>
+      </EDP>
+      <EDP>
+        <Direction>1</Direction>
+        <NumEQs>11</NumEQs>
+        <BetaM>0</BetaM>
+        <BetaGM>0</BetaGM>
+      </EDP>
+    </Analysis>
+    <Analysis>
+      <AnalysisName>L2 Tr 172 yr</AnalysisName>
+      <SA>0.4</SA>
+      <MAFE>0.00582</MAFE>
+      <SABeta>0</SABeta>
+      <ModelingDispersion>0.14</ModelingDispersion>
+      <NumRealizations>2000</NumRealizations>
+      <NonDirConversionFactor>1.2</NonDirConversionFactor>
+      <ResidualDriftEDPs>
+        <EDPArray>
+          <NumEQs>11</NumEQs>
+          <NumEntries>1</NumEntries>
+          <EDPTypeName>Building Residual Drift</EDPTypeName>
+          <DispersionValue>0.2</DispersionValue>
+          <EDPGroupName>Building Dispersion</EDPGroupName>
+          <ArrayValues>0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+</ArrayValues>
+        </EDPArray>
+      </ResidualDriftEDPs>
+      <EDP>
+        <Direction>0</Direction>
+        <NumEQs>11</NumEQs>
+        <BetaM>0</BetaM>
+        <BetaGM>0</BetaGM>
+      </EDP>
+      <EDP>
+        <Direction>1</Direction>
+        <NumEQs>11</NumEQs>
+        <BetaM>0</BetaM>
+        <BetaGM>0</BetaGM>
+      </EDP>
+    </Analysis>
+    <Analysis>
+      <AnalysisName>L3 Tr 435 yr</AnalysisName>
+      <SA>0.65</SA>
+      <MAFE>0.00231</MAFE>
+      <SABeta>0</SABeta>
+      <ModelingDispersion>0.14</ModelingDispersion>
+      <NumRealizations>2000</NumRealizations>
+      <NonDirConversionFactor>1.2</NonDirConversionFactor>
+      <ResidualDriftEDPs>
+        <EDPArray>
+          <NumEQs>11</NumEQs>
+          <NumEntries>1</NumEntries>
+          <EDPTypeName>Building Residual Drift</EDPTypeName>
+          <DispersionValue>0.73</DispersionValue>
+          <EDPGroupName>Building Dispersion</EDPGroupName>
+          <ArrayValues>0.00120541
+0
+0
+0
+0
+0
+0
+0.000139795
+0.000933483
+0
+0.001431183
+</ArrayValues>
+        </EDPArray>
+      </ResidualDriftEDPs>
+      <EDP>
+        <Direction>0</Direction>
+        <NumEQs>11</NumEQs>
+        <BetaM>0</BetaM>
+        <BetaGM>0</BetaGM>
+      </EDP>
+      <EDP>
+        <Direction>1</Direction>
+        <NumEQs>11</NumEQs>
+        <BetaM>0</BetaM>
+        <BetaGM>0</BetaGM>
+      </EDP>
+    </Analysis>
+    <Analysis>
+      <AnalysisName>L4 Tr 1111 yr</AnalysisName>
+      <SA>1.02</SA>
+      <MAFE>0.000924</MAFE>
+      <SABeta>0</SABeta>
+      <ModelingDispersion>0.27</ModelingDispersion>
+      <NumRealizations>2000</NumRealizations>
+      <NonDirConversionFactor>1.2</NonDirConversionFactor>
+      <ResidualDriftEDPs>
+        <EDPArray>
+          <NumEQs>11</NumEQs>
+          <NumEntries>1</NumEntries>
+          <EDPTypeName>Building Residual Drift</EDPTypeName>
+          <DispersionValue>0.46</DispersionValue>
+          <EDPGroupName>Building Dispersion</EDPGroupName>
+          <ArrayValues>0.00374851
+0
+0
+0
+0
+0.001657608
+0.001326063
+0.00228481
+0.003970413
+0
+0.00572719
+</ArrayValues>
+        </EDPArray>
+      </ResidualDriftEDPs>
+      <EDP>
+        <Direction>0</Direction>
+        <NumEQs>11</NumEQs>
+        <BetaM>0</BetaM>
+        <BetaGM>0</BetaGM>
+      </EDP>
+      <EDP>
+        <Direction>1</Direction>
+        <NumEQs>11</NumEQs>
+        <BetaM>0</BetaM>
+        <BetaGM>0</BetaGM>
+      </EDP>
+    </Analysis>
+    <Analysis>
+      <AnalysisName>L5 Tr 2000 yr</AnalysisName>
+      <SA>1.39</SA>
+      <MAFE>0.000454</MAFE>
+      <SABeta>0</SABeta>
+      <ModelingDispersion>0.27</ModelingDispersion>
+      <NumRealizations>2000</NumRealizations>
+      <NonDirConversionFactor>1.2</NonDirConversionFactor>
+      <ResidualDriftEDPs>
+        <EDPArray>
+          <NumEQs>11</NumEQs>
+          <NumEntries>1</NumEntries>
+          <EDPTypeName>Building Residual Drift</EDPTypeName>
+          <DispersionValue>0.62</DispersionValue>
+          <EDPGroupName>Building Dispersion</EDPGroupName>
+          <ArrayValues>0.004582413
+0
+0.001271868
+0
+0.00042571
+0.002175753
+0.003760188
+0.005390028
+0.004743715
+0.001529868
+0.012954228
+</ArrayValues>
+        </EDPArray>
+      </ResidualDriftEDPs>
+      <EDP>
+        <Direction>0</Direction>
+        <NumEQs>11</NumEQs>
+        <BetaM>0</BetaM>
+        <BetaGM>0</BetaGM>
+      </EDP>
+      <EDP>
+        <Direction>1</Direction>
+        <NumEQs>11</NumEQs>
+        <BetaM>0</BetaM>
+        <BetaGM>0</BetaGM>
+      </EDP>
+    </Analysis>
+    <Analysis>
+      <AnalysisName>L6 Tr 3333 yr</AnalysisName>
+      <SA>1.7</SA>
+      <MAFE>0.000286</MAFE>
+      <SABeta>0</SABeta>
+      <ModelingDispersion>0.27</ModelingDispersion>
+      <NumRealizations>2000</NumRealizations>
+      <NonDirConversionFactor>1.2</NonDirConversionFactor>
+      <ResidualDriftEDPs>
+        <EDPArray>
+          <NumEQs>11</NumEQs>
+          <NumEntries>1</NumEntries>
+          <EDPTypeName>Building Residual Drift</EDPTypeName>
+          <DispersionValue>0.66</DispersionValue>
+          <EDPGroupName>Building Dispersion</EDPGroupName>
+          <ArrayValues>0.005447673
+0
+0.00142837
+4.4351E-06
+0.00148945
+0.0039886
+0.004956498
+0.006570535
+0.006092665
+0.002072215
+0.102912376
+</ArrayValues>
+        </EDPArray>
+      </ResidualDriftEDPs>
+      <EDP>
+        <Direction>0</Direction>
+        <NumEQs>11</NumEQs>
+        <BetaM>0</BetaM>
+        <BetaGM>0</BetaGM>
+      </EDP>
+      <EDP>
+        <Direction>1</Direction>
+        <NumEQs>11</NumEQs>
+        <BetaM>0</BetaM>
+        <BetaGM>0</BetaGM>
+      </EDP>
+    </Analysis>
+    <Analysis>
+      <AnalysisName>L7 Tr 5000 yr</AnalysisName>
+      <SA>2.01</SA>
+      <MAFE>0.00018</MAFE>
+      <SABeta>0</SABeta>
+      <ModelingDispersion>0.27</ModelingDispersion>
+      <NumRealizations>2000</NumRealizations>
+      <NonDirConversionFactor>1.2</NonDirConversionFactor>
+      <ResidualDriftEDPs>
+        <EDPArray>
+          <NumEQs>11</NumEQs>
+          <NumEntries>1</NumEntries>
+          <EDPTypeName>Building Residual Drift</EDPTypeName>
+          <DispersionValue>0.63</DispersionValue>
+          <EDPGroupName>Building Dispersion</EDPGroupName>
+          <ArrayValues>0.006927445
+0.00074986
+0.001744293
+0.001018668
+0.00184765
+0.005723343
+0.005028865
+0.006620223
+0.007213128
+0.003508525
+0.170483126
+</ArrayValues>
+        </EDPArray>
+      </ResidualDriftEDPs>
+      <EDP>
+        <Direction>0</Direction>
+        <NumEQs>11</NumEQs>
+        <BetaM>0</BetaM>
+        <BetaGM>0</BetaGM>
+      </EDP>
+      <EDP>
+        <Direction>1</Direction>
+        <NumEQs>11</NumEQs>
+        <BetaM>0</BetaM>
+        <BetaGM>0</BetaGM>
+      </EDP>
+    </Analysis>
+    <Analysis>
+      <AnalysisName>L8 Tr 10000 yr</AnalysisName>
+      <SA>2.31</SA>
+      <MAFE>0.000107</MAFE>
+      <SABeta>0</SABeta>
+      <ModelingDispersion>0.27</ModelingDispersion>
+      <NumRealizations>2000</NumRealizations>
+      <NonDirConversionFactor>1.2</NonDirConversionFactor>
+      <ResidualDriftEDPs>
+        <EDPArray>
+          <NumEQs>11</NumEQs>
+          <NumEntries>1</NumEntries>
+          <EDPTypeName>Building Residual Drift</EDPTypeName>
+          <DispersionValue>0.58</DispersionValue>
+          <EDPGroupName>Building Dispersion</EDPGroupName>
+          <ArrayValues>0.008088438
+0.00202615
+0.0022192
+0.00178039
+0.00197638
+0.006966438
+0.004966818
+0.006056793
+0.009465558
+0.005032833
+0.194276626
+</ArrayValues>
+        </EDPArray>
+      </ResidualDriftEDPs>
+      <EDP>
+        <Direction>0</Direction>
+        <NumEQs>11</NumEQs>
+        <BetaM>0</BetaM>
+        <BetaGM>0</BetaGM>
+      </EDP>
+      <EDP>
+        <Direction>1</Direction>
+        <NumEQs>11</NumEQs>
+        <BetaM>0</BetaM>
+        <BetaGM>0</BetaGM>
+      </EDP>
+    </Analysis>
+  </AnalysisCases>
+</Project>
